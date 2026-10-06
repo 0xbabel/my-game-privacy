@@ -103,14 +103,14 @@
           <p><strong>BRICK: Arcade Defense</strong></p>
           <p class="updated">
               Last updated:
-              <time datetime="2026-09-08">September 8, 2026</time>
+              <time datetime="2026-10-06">October 6, 2026</time>
           </p>
       </header>
 
       <p>
           This policy describes how information is handled when you play
-          BRICK: Arcade Defense (“the App”), use its advertising and purchase
-          features, or contact the developer.
+          BRICK: Arcade Defense (“the App”), use its advertising, purchase,
+          iCloud and rating features, or contact the developer.
       </p>
 
       <h2>1. Who is responsible</h2>
@@ -129,67 +129,104 @@
           responsibilities and practices.
       </p>
 
-      <h2>2. Information stored on your device</h2>
+      <h2>2. Game data on your device and in iCloud</h2>
 
       <p>
           You can play without creating an account or providing your name,
           email address, phone number, or postal address.
       </p>
 
-      <p>The App saves the following information locally:</p>
+      <p>The App saves the following information on your device:</p>
 
       <ul>
           <li>High scores and the dates and sectors associated with them.</li>
-          <li>Campaign progress and checkpoints for continuing a game.</li>
-          <li>Sound, music, and tilt-control preferences.</li>
+          <li>Campaign progress, including the best sector reached and checkpoints for continuing a game.</li>
+          <li>Your best score of the day and your streak of days played in the Daily Challenge.</li>
+          <li>Counts of rounds played and sectors cleared, used to space out advertisements and rating requests.</li>
+          <li>Whether you have seen the how-to-play card, and the App version for which a rating was last requested.</li>
+          <li>Sound, music, haptics and tilt-control preferences.</li>
       </ul>
 
       <p>
-          The developer does not upload these game records or preferences
-          to a developer-operated server. Device backups managed by Apple
-          may include local App data, depending on your device and backup
-          settings.
+          <strong>iCloud.</strong> If you are signed in to iCloud on your device,
+          the App also keeps a copy of your game progress — high scores, best
+          sector, the round and sector counts, whether you have seen the
+          how-to-play card, and a game in progress — in Apple's iCloud
+          key-value storage associated with your Apple Account. This lets you
+          continue on another device or after reinstalling the App. Your
+          preferences and Daily Challenge records are not synced.
+      </p>
+
+      <p>
+          iCloud storage is provided and operated by Apple under its own
+          terms and privacy policy. The developer does not operate a server
+          for game data and cannot access the copy stored in your iCloud.
+          You can stop syncing by turning off iCloud for the App in iOS
+          Settings, where iOS lists it, or by signing out of iCloud. Device
+          backups managed by Apple may also include local App data, depending
+          on your backup settings.
       </p>
 
       <p>
           If you enable tilt controls, the App uses device-motion readings
           to move the paddle. The App does not save a history of these readings
-          or send them to the developer or advertising services.
+          or send them to the developer, Apple or advertising services.
       </p>
 
       <h2>3. Advertising and information processed by Google</h2>
 
       <p>
-          The App integrates Google AdMob to display advertisements.
-          It requests non-personalized ads and does not offer an option
-          to enable personalized advertising.
+          The App is free and integrates Google AdMob to display advertisements:
+          a banner in the main menu, full-screen ads between rounds, and
+          optional rewarded ads. A rewarded ad is shown only when you choose
+          to watch one — for example to get a second chance after losing
+          a round — and the reward is granted only after the ad has been
+          watched. Ads are not shown during active play.
       </p>
 
       <p>
-          Non-personalized ads still involve data processing. Depending on
-          the service, device settings, and applicable privacy choices,
-          Google and the advertising providers involved in delivering an ad
-          may process:
+          <strong>Personalized ads.</strong> Where permitted, the App may show
+          personalized ads, which Google and its advertising partners select
+          based on information about your activity, including activity in
+          other apps and on websites. Whether ads are personalized depends on
+          the choices described in sections 4 and 5:
+      </p>
+
+      <ul>
+          <li>
+              In the European Economic Area, the United Kingdom and
+              Switzerland, ads are personalized only if you consent through
+              the privacy message shown by Google's consent form.
+          </li>
+          <li>
+              On iOS, Apple's advertising identifier (IDFA) is made available
+              to Google only if you allow tracking in Apple's App Tracking
+              Transparency prompt. If you do not allow it, the IDFA is not
+              used, and ads may be less relevant or non-personalized.
+          </li>
+      </ul>
+
+      <p>
+          Whether or not ads are personalized, Google and the advertising
+          providers involved in delivering an ad may process, depending on the
+          service, your device settings and your privacy choices:
       </p>
 
       <ul>
           <li>IP address and approximate location inferred from it.</li>
-          <li>Device or app identifiers, subject to platform restrictions.</li>
+          <li>Device and app identifiers, including the IDFA only if you allow tracking.</li>
           <li>Device model, operating system, and technical information.</li>
-          <li>Ad impressions, clicks, and other advertising interactions.</li>
+          <li>Ad impressions, clicks, rewarded-ad completions, and other advertising interactions.</li>
+          <li>Information about your activity in other apps and on websites, where personalized ads are permitted.</li>
           <li>Crash reports, performance measurements, and diagnostic data.</li>
       </ul>
 
       <p>
-          These services use information to deliver advertisements, measure
-          their performance, maintain service reliability, and detect fraud
-          or abuse.
-      </p>
-
-      <p>
-          The App does not request access to Apple's advertising identifier
-          through App Tracking Transparency. This does not mean that
-          advertising services process no information.
+          These services use information to deliver advertisements,
+          personalize them where permitted, limit how often you see them,
+          measure their performance, maintain service reliability, and detect
+          fraud or abuse. Ads are limited to content suitable for a general
+          audience.
       </p>
 
       <p>
@@ -217,14 +254,15 @@
       <p>
           Where applicable, including in the European Economic Area,
           the United Kingdom, and Switzerland, a privacy message provides
-          information and choices concerning advertising-related processing.
-          Available options depend on your region and the applicable message.
+          information and choices concerning advertising-related processing,
+          including whether ads may be personalized. Available options depend
+          on your region and the applicable message.
       </p>
 
       <p>
           The App requests ads only when UMP reports that ad requests are
           permitted. Gameplay does not require you to accept advertising
-          consent or create an account.
+          consent, allow tracking, or create an account.
       </p>
 
       <p>
@@ -241,7 +279,31 @@
           performed before withdrawal.
       </p>
 
-      <h2>5. In-app purchases</h2>
+      <h2>5. App Tracking Transparency</h2>
+
+      <p>
+          After the privacy message (if one is shown for your region), the App
+          may ask, through Apple's App Tracking Transparency prompt, for
+          permission to track your activity across other companies' apps and
+          websites. Google may first show a short screen explaining the
+          request. The App asks at most once; iOS remembers your answer.
+      </p>
+
+      <p>
+          If you allow tracking, the IDFA may be used by Google and its
+          advertising partners to personalize and measure ads. If you ask the
+          App not to track, the IDFA is not available to the App or to Google,
+          and you can play exactly the same way.
+      </p>
+
+      <p>
+          You can change your answer at any time in iOS Settings under
+          <strong>Privacy &amp; Security → Tracking</strong>.
+          The App does not ask for tracking permission if you have purchased
+          the ad-free upgrade.
+      </p>
+
+      <h2>6. In-app purchases and ratings</h2>
 
       <p>
           The App offers a one-time purchase to remove advertising.
@@ -268,7 +330,14 @@
           App Store purchase history.
       </p>
 
-      <h2>6. Contacting the developer</h2>
+      <p>
+          From time to time, after you clear a sector, the App may show
+          Apple's standard prompt to rate the App. Apple handles the prompt
+          and any rating or review you submit; the developer only sees
+          ratings and reviews as Apple publishes them in the App Store.
+      </p>
+
+      <h2>7. Contacting the developer</h2>
 
       <p>
           If you email us, we receive your email address and any information
@@ -281,12 +350,13 @@
           sensitive information that is unnecessary for resolving your request.
       </p>
 
-      <h2>7. Purposes and legal bases</h2>
+      <h2>8. Purposes and legal bases</h2>
 
       <p>
           Where data-protection law requires a legal basis, we process
-          information as necessary to provide the functionality you request,
-          respond to support enquiries, and meet legal obligations.
+          information as necessary to provide the functionality you request
+          (including saving and syncing your game progress), respond to
+          support enquiries, and meet legal obligations.
       </p>
 
       <p>
@@ -296,20 +366,23 @@
       </p>
 
       <p>
-          Where consent is legally required for advertising-related processing
-          or access to information on your device, the relevant processing
-          depends on your consent. Google and other service providers
-          explain their own purposes and legal bases in their notices and
-          the applicable consent information.
+          Personalized advertising, tracking across other companies' apps and
+          websites, and other advertising-related processing or access to
+          information on your device for which consent is legally required
+          depend on your consent and, on iOS, your App Tracking Transparency
+          permission. Google and other service providers explain their own
+          purposes and legal bases in their notices and the applicable
+          consent information.
       </p>
 
-      <h2>8. Sharing and international processing</h2>
+      <h2>9. Sharing and international processing</h2>
 
       <p>
           The App uses Google for advertising and consent functionality,
-          and Apple for purchases and platform services. Information you send
-          by email is also handled by the email services used to deliver
-          and manage that correspondence.
+          and Apple for iCloud storage, purchases, rating prompts and platform
+          services. Information you send by email is also handled by the email
+          services used to deliver and manage that correspondence. We do not
+          sell your personal information to anyone.
       </p>
 
       <p>
@@ -326,15 +399,22 @@
           leaderboard, or developer-hosted database of gameplay records.
       </p>
 
-      <h2>9. Retention and deletion</h2>
+      <h2>10. Retention and deletion</h2>
 
       <ul>
           <li>
-              <strong>Local gameplay data:</strong>
+              <strong>Local game data:</strong>
               retained on your device until overwritten during normal use
               or removed by deleting the App. Offloading the App may retain
               its data. Backup copies are managed through your Apple
               backup settings.
+          </li>
+          <li>
+              <strong>Game progress in iCloud:</strong>
+              retained in your iCloud until you delete it. Deleting the App
+              alone does not remove it; you can manage or delete the App's
+              iCloud data in iOS Settings under your Apple Account → iCloud,
+              where iOS lists it, or ask Apple.
           </li>
           <li>
               <strong>Support correspondence:</strong>
@@ -343,12 +423,12 @@
               or resolve a dispute.
           </li>
           <li>
-              <strong>Advertising and consent information:</strong>
+              <strong>Advertising, tracking and consent information:</strong>
               retained by the relevant providers according to their
               purposes, retention policies, and legal obligations.
           </li>
           <li>
-              <strong>Purchase records:</strong>
+              <strong>Purchase records and ratings:</strong>
               maintained by Apple under its own retention policies.
           </li>
       </ul>
@@ -357,7 +437,7 @@
           To remove the App's local data, use iOS Settings to delete the App,
           rather than only removing its Home Screen icon or offloading it.
           This does not automatically delete records held by Google,
-          Apple, or other service providers.
+          Apple, or other service providers, including the copy in iCloud.
       </p>
 
       <p>
@@ -367,7 +447,7 @@
           is relevant to your request.
       </p>
 
-      <h2>10. Your rights</h2>
+      <h2>11. Your rights</h2>
 
       <p>
           Depending on your location and the applicable law, you may have
@@ -391,19 +471,20 @@
               Office for Personal Data Protection of the Slovak Republic</a>.
       </p>
 
-      <h2>11. Children</h2>
+      <h2>12. Children</h2>
 
       <p>
-          The App is intended for a general audience and is not specifically
-          directed at children under 13. The App Store age rating describes
-          content suitability and is separate from legal requirements
-          concerning children's personal data and consent.
+          The App is intended for a general audience and is not directed at
+          children under 13. The App Store age rating describes content
+          suitability and is separate from legal requirements concerning
+          children's personal data and consent.
       </p>
 
       <p>
           We do not ask children to create accounts or submit personal
           information. Advertising services may nevertheless process device
-          information as described above.
+          information as described above. Ads are limited to content suitable
+          for a general audience.
       </p>
 
       <p>
@@ -413,16 +494,17 @@
           so that we can investigate and address the request.
       </p>
 
-      <h2>12. Security</h2>
+      <h2>13. Security</h2>
 
       <p>
-          Local App data is stored within the storage provided by iOS.
-          We use the platform's purchase services and established advertising
-          and consent services. No system can guarantee absolute security
-          for stored or transmitted information.
+          Local App data is stored within the storage provided by iOS, and
+          synced progress within Apple's iCloud. We use the platform's purchase
+          and storage services and established advertising and consent
+          services. No system can guarantee absolute security for stored or
+          transmitted information.
       </p>
 
-      <h2>13. This privacy-policy website</h2>
+      <h2>14. This privacy-policy website</h2>
 
       <p>
           This page is hosted on GitHub Pages. Its HTML does not include
@@ -438,7 +520,7 @@
           for information about its handling of website visitor data.
       </p>
 
-      <h2>14. Changes to this policy</h2>
+      <h2>15. Changes to this policy</h2>
 
       <p>
           We will update this page when our practices change and revise
