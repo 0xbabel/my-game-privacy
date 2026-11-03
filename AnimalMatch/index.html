@@ -66,6 +66,11 @@
               color: #526070;
           }
 
+          .languages {
+              margin: 0 0 24px;
+              color: #526070;
+          }
+
           footer {
               margin-top: 40px;
               padding-top: 20px;
@@ -82,7 +87,7 @@
                   color: #8bc8ff;
               }
 
-              .updated {
+              .updated, .languages {
                   color: #b5c1ce;
               }
 
@@ -94,12 +99,18 @@
 </head>
 <body>
 <main>
+    <nav class="languages" aria-label="Language">
+        <strong>English</strong> ·
+        <a href="sk/" hreflang="sk" lang="sk">Slovensky</a> ·
+        <a href="cs/" hreflang="cs" lang="cs">Česky</a>
+    </nav>
+
     <header>
         <h1>Privacy Policy</h1>
         <p><strong>Animal Match</strong></p>
         <p class="updated">
             Last updated:
-            <time datetime="2026-10-29">October 29, 2026</time>
+            <time datetime="2026-11-03">November 3, 2026</time>
         </p>
     </header>
 
@@ -150,10 +161,11 @@
     <h2>4. Spoken animal names</h2>
 
     <p>
-        When a pair is found, the App can say the animal's name using the
-        speech voices built into iOS and iPadOS. Speech is produced on the
-        device; the App does not record audio and does not send any text or
-        audio to us. The feature can be switched off in the App's settings
+        When a pair is found, the App can say the animal's name. It plays a
+        recording bundled with the App; if a recording is missing for that
+        animal and language, it uses a voice built into iPadOS instead.
+        Everything happens on the device: the App does not record audio and
+        does not send any text or audio to us. The feature can be switched off in the App's settings
         under “Animal names”.
     </p>
 
@@ -220,7 +232,8 @@
 
     <p>
         We will update this page when our practices change and revise the
-        date shown above.
+        date shown above. This policy is also available in Slovak and Czech;
+        if the language versions differ, the English version prevails.
     </p>
 
     <footer>
